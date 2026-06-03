@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-jina-reader",
+  "version": "0.1.0",
+  "description": "Jina AI Reader/Search MCP — turn any URL into clean LLM-ready markdown, plus web search.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "jina-reader"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-jina-reader"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
