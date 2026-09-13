@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-jina-reader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Jina AI Reader/Search MCP — turn any URL into clean LLM-ready markdown, plus web search.",
   "type": "module",
   "main": "src/index.ts",
