@@ -1,0 +1,42 @@
+[
+  {
+    "name": "read_url",
+    "description": "Fetch any web page as clean, LLM-ready markdown (strips nav/ads) — ideal for giving an agent the readable content of a URL.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "The full target URL to fetch, e.g. \"https://example.com/article\"."
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Your Jina API key. Required — Jina no longer serves anonymous requests. Pipeworx injects its own when one is configured; free keys at https://jina.ai/reader."
+        }
+      },
+      "required": [
+        "url"
+      ]
+    }
+  },
+  {
+    "name": "search",
+    "description": "Web search returning the top results as markdown, via Jina. Needs a Jina API key (pass via _apiKey) — Jina stopped serving anonymous requests.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "The search query, e.g. \"best coffee in Seattle\"."
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Your Jina API key. Required — Jina no longer serves anonymous requests. Pipeworx injects its own when one is configured; free keys at https://jina.ai/reader."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  }
+]
