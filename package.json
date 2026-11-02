@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-jina-reader",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Jina AI Reader/Search MCP — turn any URL into clean LLM-ready markdown, plus web search.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "jina-reader",
     "gatewaySlug": "jina_reader",
-    "sourceHash": "v1-7a94ddb0cd199418f87ac0538766468c6d93704443f5c09304ecb0d85aa84ece",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-28631758e3672fd0521429658f2093725d7d9fcd9fc9ef560b3bad1c6448a950",
+    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
   }
 }
